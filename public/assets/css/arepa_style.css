@@ -22,18 +22,24 @@
 
 }
 #content{
+
 	width: 100%;
 	font-family: verdana;
 	font-size: 12px;
+
 }
 
 #pending{
-	width: 60%;
+	width: 55%;
+	margin-left: 20px;
+	display: block;
+	margin-bottom: 20px;
 	float: left;
-	text
+
 }
 #devoured{
 	width: 40%;
+	display: block;
 	float: left;
 }
 

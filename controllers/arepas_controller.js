@@ -33,7 +33,7 @@ app.put('/:id', function(req, res){
 
 	// console.log(condition);
 	arepa.update({
-		devoured: 1
+		devoured: 1,
 	}, condition, function(){
 		res.redirect('/')
 	})

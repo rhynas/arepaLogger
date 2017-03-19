@@ -8,7 +8,7 @@ CREATE TABLE arepas(
 	arepa_name VARCHAR(80) NOT NULL,
 	devoured BOOLEAN DEFAULT false,
 	date_created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	date_devoured TIMESTAMP,
+	date_devoured TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 	PRIMARY KEY (id)
 );
 
