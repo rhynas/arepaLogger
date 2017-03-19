@@ -1,5 +1,5 @@
-INSERT INTO burgers (burger_name) VALUES ("Grilled Chicken Burger");
-INSERT INTO burgers (burger_name, devoured) VALUES ("Crispy Chicken Burger", true);
-INSERT INTO burgers (burger_name) VALUES ("Beef Bacon Cheese Burger");
-INSERT INTO burgers (burger_name) VALUES ("Double beef Burger");
-INSERT INTO burgers (burger_name, devoured) VALUES ("Tofu Burger", true);
+INSERT INTO arepas (arepa_name) VALUES ("Reina Pepiada (spotted queen) - chicken salad with avocado");
+INSERT INTO arepas (arepa_name, devoured) VALUES ("Pelua - shredded skirt steak and cheddar cheese", true);
+INSERT INTO arepas (arepa_name) VALUES ("Pabellon - shredded skirt steak, plantains, black beans and avocado");
+INSERT INTO arepas (arepa_name) VALUES ("Pernil - Pork");
+INSERT INTO arepas (arepa_name, devoured) VALUES ("Vegie - grilled tofu, plantains, black beans and avocado", true);

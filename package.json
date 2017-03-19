@@ -1,24 +1,25 @@
 {
-  "name": "burger",
+  "name": "arepalogger",
   "version": "1.0.0",
-  "description": "Burger logger buit with MySQL, Node, express, handlebars and a homeade ORM",
-  "main": "index.js",
+  "description": "Arepa logger is a restaurant app that let users input the name of the arepas they'd like to eat. Built with MySQL, Node, express, handlebars and a homeade ORM",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhynas/burger.git"
+    "url": "git+https://github.com/rhynas/arepaLogger.git"
   },
   "author": "Rhyna Silva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rhynas/burger/issues"
+    "url": "https://github.com/rhynas/arepaLogger/issues"
   },
-  "homepage": "https://github.com/rhynas/burger#readme",
+  "homepage": "https://github.com/rhynas/arepaLogger#readme",
   "dependencies": {
-    "body-parser": "^1.16.1",
-    "express": "^4.14.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.7",
     "mysql": "^2.13.0"

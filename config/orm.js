@@ -33,6 +33,7 @@ var orm = {
       if (err) {
         throw err;
       }
+      console.log(result);
       cb(result);
     });
   },
@@ -55,7 +56,7 @@ var orm = {
       cb(result);
     });
   },
-  // An example of objColVals would be {burger_name: chicken, devoured: true}
+  // An example of objColVals would be {arepa_name: chicken, devoured: true}
   update: function(table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
 
