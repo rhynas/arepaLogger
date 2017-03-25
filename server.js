@@ -6,8 +6,17 @@ var bodyParser = require("body-parser");
 
 // Sets up the Express App
 // =============================================================
-var app = express();
 var PORT = 3000;
+
+// var app = express();
+/*
+	did this instead of 
+		var app = express();
+	because now I can include this file and get the app
+
+	this is useful in the connection.js file
+*/
+var app = module.exports = express(); 
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(process.cwd() + "/public"));
